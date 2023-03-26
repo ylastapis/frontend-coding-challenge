@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
   ${normalize};
 
   body {
-    font-family: 'Play';
+    font-family: 'Play', sans-serif;
     background: ${theme.palette.background.body};
     color: ${theme.palette.text.primary};
     ${theme.typography.body};
